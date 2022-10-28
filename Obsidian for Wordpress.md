@@ -29,7 +29,7 @@ In other word, there is a [Git plugin for Wordpress](https://www.aakashweb.com/d
 
 ## Create a Github Repository
 
-Create a Github repository (it only works with Github) for your Wordpress content. It can be a private repository.
+Create a Github repository (it only works with Github) for your Wordpress content. It can be a private repository if you do not want to publish images; if you want to, you cannot make it private: Github will send a payload to Wordpress, including the link to eventual images; the Wordpress plugin will then try to fetch those images, but won't be able to if the repository is private.
 
 Once you have created your repository, go to the User Settings within Github, and from there all the way down on the left side, go to `Developer` settings. Go to `Personal access tokens` and within that, to `Tokens (classic)`. Click on `Generate a new token (classic)`. At this point you're going to be asked your password. After that, essentially in the `Note` field write something that will later remind you of what that token was for. Choose an expiration of that token. You can think of this token as a password that you want your Wordpress page to use to log into your Github repository. Under `Select scopes`, just check the top box `repo` (which will check some boxes underneath). Then press `Generate token` at the bottom, and copy out the token that will be displayed to you. You'll need that for Wordpress.
 
