@@ -51,7 +51,7 @@ This would make the whole process of Github calling the Wordpress plugin fail. W
 
 So I edited the file `wp-content/plugins/git-it-write/includes/publisher.php` and added these three lines just after the line that reads `<?php`:
 
-```python
+```php
 require_once(ABSPATH . 'wp-admin/includes/media.php');
 require_once(ABSPATH . 'wp-admin/includes/file.php');
 require_once(ABSPATH . 'wp-admin/includes/image.php');
@@ -61,7 +61,7 @@ I don't know if all of them are needed; I just added all of them.
 
 At this point, the images would upload, but not show up in the post; the URL would be created incorrectly. To "fix" it (I don't think it's a good fix, but it works for me), I edited the file `wp-content/plugins/git-it-write/includes/parsedown.php`. Looko for something that looks like this (around line 60 for me):
 
-```python
+```php
      if( $first_character == '.' ){
 		 $prefix = '../';
 	 }
@@ -70,7 +70,7 @@ At this point, the images would upload, but not show up in the post; the URL wou
 and change it to read like this:
 
 
-```python
+```php
      if( 1 || $first_character == '.' ){
 		 $prefix = '../wp-content/uploads/';
 	 }
@@ -167,6 +167,8 @@ As written above, I needed to hack the plugin to make images work; also, I'd hav
 ### Lag for Refresh
 
 I spent like half an evening trying to find out why on earth an update did not end up on my page. I could publish a new post, but an existing post apparently wasn't updated. Turns out, I was not waiting long enough. So be patient. It may take 5 minutes.
+
+Sometimes it is instantaneous, sometimes, it does not happen at all; in that case, I may just push again...
 
 ### No Delete (and no Edit within Wordpress)
 
