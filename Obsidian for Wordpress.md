@@ -26,7 +26,6 @@ As it turns out, while I didn't find a way to directly publish into Wordpress, t
 
 In other word, there is a [Git plugin for Wordpress](https://www.aakashweb.com/docs/git-it-write/faq/). You can install it just as a Wordpress plugin. It is actually very well documented. You can also look at its [Github Page](https://github.com/vaakash/git-it-write). Essentially, you do this:
 
-
 ## Create a Github Repository
 
 Create a Github repository (it only works with Github) for your Wordpress content. It can be a private repository if you do not want to publish images; if you want to, you cannot make it private: Github will send a payload to Wordpress, including the link to eventual images; the Wordpress plugin will then try to fetch those images, but won't be able to if the repository is private.
