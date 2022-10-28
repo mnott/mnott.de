@@ -193,7 +193,7 @@ I don't know many things here:
 
 But never mind, it works well enough for me; to remind me of how to use an image, I've just let one image sample in my template.
 
-
+ 
 ## Caveats
 
 ### Hack needed for Images
