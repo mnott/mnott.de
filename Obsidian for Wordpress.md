@@ -3,7 +3,7 @@
 title: Obsidian for Wordpress
 menu_order: 1
 post_status: publish
-post_excerpt: This is a post excerpt.
+post_excerpt: This shows how to Feed from Obsidian to Wordpress.
 taxonomy:
     category:
         - Obsidian
@@ -94,7 +94,7 @@ Within that, obviously,
 
 Add a sample page like this one to your vault:
 
-![Obsidian Git Wordpress](_images/obsidian_git_wp.png)
+![Obsidian Git Wordpress](obsidian_git_wordpress.png)
 
 ## Commit and Push the repository
 
