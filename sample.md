@@ -1,5 +1,5 @@
 # Sample Post
 
-v2.5
+v2.6
 
 Sample Page.
