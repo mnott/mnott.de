@@ -38,6 +38,47 @@ Once you have created your repository, go to the User Settings within Github, an
 
 Install the Github plugin `Git it Write` for Wordpress and "marry" it to your Git repository:
 
+### Hack the Github plugin
+
+This part of the description may look scary, but bear with me. I wasn't able to get it to work otherwise, and I'm contacting the plugin author to look for a better fix. Essentially, this is only relevant if you want to post images; it may not apply to your case, so try going without this. Anyway, here is what I did.
+
+First of all, when I was adding an image to my post, like so:
+
+```markdown
+![Obsidian Git Wordpress](obsidian_git_wordpress.png)
+```
+
+This would make the whole process of Github calling the Wordpress plugin fail. With a bit of googling, I found that the plugin was missing some includes.
+
+So I edited the file `wp-content/plugins/git-it-write/includes/publisher.php` and added these three lines just after the line that reads `<?php`:
+
+```python
+require_once(ABSPATH . 'wp-admin/includes/media.php');
+require_once(ABSPATH . 'wp-admin/includes/file.php');
+require_once(ABSPATH . 'wp-admin/includes/image.php');
+```
+
+I don't know if all of them are needed; I just added all of them.
+
+At this point, the images would upload, but not show up in the post; the URL would be created incorrectly. To "fix" it (I don't think it's a good fix, but it works for me), I edited the file `wp-content/plugins/git-it-write/includes/parsedown.php`. Looko for something that looks like this (around line 60 for me):
+
+```python
+     if( $first_character == '.' ){
+		 $prefix = '../';
+	 }
+```
+
+and change it to read like this:
+
+
+```python
+     if( 1 || $first_character == '.' ){
+		 $prefix = '../wp-content/uploads/';
+	 }
+```
+
+With those changes, the uploads of images would work; well, if I'd delete an image from the Wordpress site, it would not upload again; I'd have to actually rename the image.
+
 ### Add a new Repository
 
 At the top of the plugin settings, there's a button to `Add a new repository to publish posts from`. Within those settings, you'll set
@@ -119,6 +160,10 @@ Where you configured your Plugin, you can see your repository, and at the top th
 
 
 ## Caveats
+
+### Hack needed for Images
+
+As written above, I needed to hack the plugin to make images work; also, I'd have to rename an image each time I'd want to change it. I'll contact the developer of the plugin and post an update here if this gets fixed somehow.
 
 ### Lag for Refresh
 
