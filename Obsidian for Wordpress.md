@@ -132,7 +132,7 @@ Within that, obviously,
 
 ## Add some Sample Content
 
-Add a sample page like this one to your vault:
+Add a sample page like this one to your vault: 
 
 ![Obsidian Git Wordpress](obsidian_git_wordpress.png)
 
