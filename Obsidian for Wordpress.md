@@ -157,6 +157,42 @@ Where you configured your Webhook within Github, there is a `Recent Deliveries` 
 
 Where you configured your Plugin, you can see your repository, and at the top there's a `Logs` button which will show you if and how the plugin was called by Github.
 
+## Optional: Create a Templater Folder Template
+
+If you use the Templater plugin for Obsidian, you can create a template that's going to be used for each new file that you put below your `Web` folder. I use this one:
+
+```markdown
+---
+
+title: Sample Post
+menu_order: 1
+post_status: publish
+post_excerpt: This is a post excerpt.
+taxonomy:
+    category:
+        - category 1
+    post_tag:
+        - tag-1
+custom_fields:
+    field1: value 1
+    field2: value 2
+
+---
+
+# Title
+
+![Obsidian Git Wordpress](obsidian_git_wordpress.png)
+
+```
+
+I don't know many things here:
+
+1. What is the title tag used for in this context
+2. What does the Menu Order do
+3. What are those custom fields for
+
+But never mind, it works well enough for me; to remind me of how to use an image, I've just let one image sample in my template.
+
 
 ## Caveats
 
