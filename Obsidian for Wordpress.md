@@ -24,7 +24,7 @@ As it turns out, while I didn't find a way to directly publish into Wordpress, t
 1. Publish a part of your Obsidian Vault into a Github repository
 2. From there, publish the content over to Wordpress. You can configure everything so that this is done automatically whenever you push something into your Github repository.
 
-In other word, there is a [Git plugin for Wordpress](https://www.aakashweb.com/docs/git-it-write/faq/). You can install it just as a Wordpress plugin. It is actually very well documented. Essentially, you do this:
+In other word, there is a [Git plugin for Wordpress](https://www.aakashweb.com/docs/git-it-write/faq/). You can install it just as a Wordpress plugin. It is actually very well documented. You can also look at its [Github Page](https://github.com/vaakash/git-it-write). Essentially, you do this:
 
 
 ## Create a Github Repository
