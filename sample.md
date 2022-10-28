@@ -19,6 +19,6 @@ custom_fields:
 
 # Sample Post
 
-v2.17
+v2.18
 
 Sample Page.
