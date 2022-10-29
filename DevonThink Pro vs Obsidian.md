@@ -19,7 +19,7 @@ taxonomy:
  
 # DTP vs. Obsidian
 
-On the DevonThink Pro (DTP) forum, this morning, I was reading [a discussion](https://discourse.devontechnologies.com/t/devonthink-obsidian/73208/42) about DTP vs. Obsidian. It made add my own notes, but I also thought, why not elaborate here.  
+On the DevonThink Pro (DTP) forum, this morning, I was reading [a discussion](https://discourse.devontechnologies.com/t/devonthink-obsidian/73208/42) about DTP vs. Obsidian. It made add my own notes, but I also thought, why not elaborate here. 
 
 
 ## My Usage of DTP
