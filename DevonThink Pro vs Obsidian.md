@@ -34,7 +34,9 @@ The way that I push my eMails to DTP is through a local IMAP server that I confi
 
 Before switchting to an M1 Mac, I was using my own wrapper around Abbyy, again using a Docker container, to process OCR. That still works, but because that's a very old version of Abbyy, I've switched over to DTP for doing my OCR. DTP comes with a license to Abby, so all you really need to do is something like this:
 
-![[dtpocr.png]]
+![DTP OCR](dtpocr.png)
+
+
 
 Note the filter `Word Count is less than 1` - this ensures that I'll process only files that have not yet been OCRd.
 
@@ -55,7 +57,7 @@ Let's go through them one by one.
 
 ### Daily Project Work
 
-![[obsidian1.png]]
+![Obsidian Dashboard](obsidian1.png)
 
 Let the above screen shot speak for itself, particularly, if you have seen DTP. You can see a folder tree. Since Obsidian just shows what's in the folder tree, I'm using Symbolic Links sometimes to bring entirely different things into one view.
 
@@ -63,7 +65,7 @@ Next to the folder tree, you can see my daily control center. It is like a dashb
 
 Next to that, to the right, you can see a calendar view; when I click on a day, I'll generate a "daily note". And below that you can see a graph tree that links to related notes for the current note. The graph view in itself warrants it's own screenshot:
 
-![[obsidian2.png]]
+![Obsidian Graph](obsidian2.png)
 
 You can run queries to display only parts of it, you can color code it, etc. If you hover over any of those notes, it'll show you not only the note title, but als it's related notes. This is for me a good way to see which things are not yet linked to other things.
 
@@ -82,7 +84,7 @@ When I started using Obsidian, some of the basic functionality that I was using 
 
 Just recently though, I got back to it as part of my dissertation, and re-implemented my LaTeX wrapper so that it can work well with Obsidian. You can download the code [here](https://github.com/mnott/dissertation-template) and see it here:
 
-![[obsidian3.png]]
+![Obsidian LaTeX](obsidian3.png)
 
 On the left, you can see my LaTeX script that manages the different tasks required to move from the editing view in Obsidian (center), to the finished document (right). As you can see, the way I've implemented a markdown language on top of LaTeX allows me to have very few non-content elements in the text that I am writing, while at any moment maintaining the entire flexibility of LaTeX. After all, I'm using LaTeX since about 30 years, and while I am not at all afraid of seeing all sorts of LaTeX code within the text that I am writing, I strive for having as little of it as possible so that I can actually concentrate on the text, not on the format.
 
@@ -113,7 +115,7 @@ There are as many tastes as there are people. Hence there is no point arguing wh
 
 In this place, Obsidian beats DTP out of the water easily. DTP is just not really adaptable at all. For example, I posted on the DTP forums, like a year ago, whether we could make it so that elements in the trash whould not be strike through - because I just have a hard time reading those items:
 
-![[dtptrash.png]]
+![DTP Trash](dtptrash.png)
 
 I've automated importers for my mails that throw certain things into the bin immediately. But every now and them, before emptying the trash, I'd like to quickly scroll through to see if I'm missing anything.
 
@@ -166,7 +168,7 @@ On top of that, you can go further and embed JavaScript right in your notes. Lik
 
 As you can see, it's pretty simple JavaScript. It is also very fast. The above code shows me the most recently changed files, inside a  note, like so:
 
-![[obsidian4.png]]
+![Obsidian Query](obsidian4.png)
 
 Again, as you can see, it is interactive, you can hover over those notes, and they'll show you the content of the linked note.
 
