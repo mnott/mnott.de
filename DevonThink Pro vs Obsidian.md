@@ -25,7 +25,7 @@ On the DevonThink Pro (DTP) forum, this morning, I was reading a discussion abou
 ## My Usage of DTP
 
 I'm using DTP since way over 10 years. I've written plugins for it, and I'm managing over 2 million documents, mostly eMails, within it. I am not using DTTP (the "to-go", mobile version), because I never even managed to synchronize 50k documents over to it, and it won't synchronize if you're not having the app in front; which means, as an on-the-go eMail archive, it's unreliable for me. Maybe after 2 years since I paid for DTTP, I've not been able to figure it out.
-
+ 
 ### Mail to DTP
 
 The way that I push my eMails to DTP is through a local IMAP server that I configured within a Docker container. You can get the code [here](https://github.com/mnott/mail2dt).
