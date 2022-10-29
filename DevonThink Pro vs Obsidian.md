@@ -205,7 +205,7 @@ I see Obsidian as a strong competitor to DTP. It is not there yet for some of th
 - DTP: Telling. Developers literally tell you how you should use it. You don't like it, you often have no way to influence it. They do listen though, like when years ago I found a bug in their metadata storage in extended attributes and fixed it myself. But more generally, it is very much 1990s.
 - Obsidian: Sharing. Literally. You have the power to change every single aspect of it.
 
-Therefore, while I'm using them both next to each other, for different purposes, I clearly can see that DTP has found it's disruptor there. I'll keep using, as Kristensen would say, DTP only as long as Obsidian is not yet good enough for me to do what I do with DTP; the moment it is, I'll jump ship for these remaining use cases, and never look back (like with Scrivener).
+Therefore, while I'm using them both next to each other, for different purposes, I clearly can see that DTP has found its disruptor there. I'll keep using, as Kristensen would say, DTP only as long as Obsidian is not yet good enough for me to do what I do with DTP; the moment it is, I'll jump ship for these remaining use cases, and never look back (like with Scrivener).
 
 Your mileage will vary, of course.
 
