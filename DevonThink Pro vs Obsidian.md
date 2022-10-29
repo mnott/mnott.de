@@ -47,7 +47,7 @@ Essentially, I'm using DTP as a long term memory. A shoe box for the basement wh
 
 ## My Usage of Obsidian
 
-I've been using Obsidian since it came about, probably like 2 years by now. My use of Obisidan is entirely different from DTP. I use Obsidian as my daily control center: Everything I touch daily, goes through Obsidian at some point, if it doesn't go directly into long term storage (DTP). I have three specific workflows that I am using Obsidian for:
+I've been using Obsidian since it came about, probably like 2 years by now. My use of Obisidan is entirely different from DTP. I use Obsidian as my daily control center: Everything I touch daily, goes through Obsidian at some point, if it doesn't go directly into long term storage (DTP). I have three specific workflows that I am using Obsidian for: 
 
 1. Daily Project work, including Meeting notes
 2. Scientific Research
