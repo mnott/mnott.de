@@ -16,7 +16,7 @@ taxonomy:
         - Computer
 
 ---
- 
+
 # DTP vs. Obsidian
 
 On the DevonThink Pro (DTP) forum, this morning, I was reading [a discussion](https://discourse.devontechnologies.com/t/devonthink-obsidian/73208/42) about DTP vs. Obsidian. It made me add my own notes, but I also thought, why not elaborate here.
@@ -209,6 +209,9 @@ Therefore, while I'm using them both next to each other, for different purposes,
 
 Your mileage will vary, of course.
 
+
+---
+Related: [[Obsidian/- -|Obsidian]]
 
 
 
