@@ -211,7 +211,7 @@ Your mileage will vary, of course.
 
 
 ---
-Related: [[Obsidian/- -|Obsidian]]
+Related: [[Y - Obsidian/- -|Obsidian]]
 
 
 

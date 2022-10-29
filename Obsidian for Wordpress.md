@@ -218,4 +218,8 @@ If your Wordpress site already has some legacy content, you can of course go thr
 
 This is really an amazing plugin. It allows me to use Obsidian, where I work every day anyway, to just publish content very easily to my Wordpress site.
 
+---
+Related: [[Y - Obsidian/- -|Obsidian]]
+
+
 
