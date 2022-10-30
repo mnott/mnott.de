@@ -137,3 +137,7 @@ do shell script myScript
 
 return "hook://link-to-new"
 ```
+
+
+---
+Related: [[Computer/MacOS/- -|MacOS]]
