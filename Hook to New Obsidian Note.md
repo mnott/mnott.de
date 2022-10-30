@@ -33,6 +33,7 @@ Also, towards the bottom, look for `defContent`. That's my default content that 
 use framework "Foundation"
 use scripting additions
 
+-- Set your Obsidian Folder here:
 set obsidianFolder to "Z - Zettelkasten/"
 
 property NSString : a reference to current application's NSString
@@ -59,7 +60,6 @@ on error errMsg
 end try
 
 if prefUrl is not "" and prefUrl is not "obsidian-default" and prefUrl is not "hook-file" and prefUrl is not "obsidian-advanced-URI" then
-
 	-- An invalid value for com.cogsciapps.hook integration.obsidian.URL.scheme  has been set. There, we present the following options and set the default here.
 	set thePrefChoices to {"obsidian-default (obsidian://)", "obsidian-advanced-URI (obsidian://advanced-uri)", "hook-file (hook://file/)"}
 	set thePrefChoice to choose from list thePrefChoices with prompt "Please select one of the following URL schemes with which to interact with Obsidian:" default items {"obsidian-default (obsidian://)"}
@@ -72,6 +72,8 @@ if prefUrl is not "" and prefUrl is not "obsidian-default" and prefUrl is not "h
 		return
 	end if
 end if
+
+
 
 set callbackURL to "hook://x-callback-url/link-to-new"
 set encodedSrc to "$encoded_link"
@@ -102,17 +104,18 @@ set theString to theString's stringByReplacingOccurrencesOfString:"%7C" withStri
 
 set encodedTitle to theString as string
 
+-- Set your note content here
+set defContent to "%0A%0A---%0A%3Cmark%20style%3D%22margin-top%3A%20100%3B%20background-color%3A%20%233B3836%3B%20color%3A%20%23494942%22%3ECreated%3A%20%60%24%3Ddv.span%28dv.current%28%29.file.ctime%29%60%3C%2Fmark%3E"
+
 
 if prefUrl is "obsidian-advanced-URI" then
 	set urlKey to "advanceduri"
-
 	-- An invalid value for com.cogsciapps.hook integration.obsidian.URL.scheme  has been set. There, we present the following options and set the default here.
-
 	set encodedTitle to theString's stringByAddingPercentEncodingWithAllowedCharacters:charset
 	set callbackURL to callbackURL & "?src=" & encodedSrc & "&urlKey=advanceduri&plusencoded=yes"
 	set theString to NSString's stringWithString:callbackURL
 	set callbackURL to theString's stringByAddingPercentEncodingWithAllowedCharacters:charset
-	set myURL to "obsidian://advanced-uri?filename=" & obsidianFolder & encodedTitle & fileType & "&data=[" & encodedTitle & "](" & encodedLink & ")&mode=new&x-success=" & callbackURL & "&x-error=" & callbackURLError
+	set myURL to "obsidian://advanced-uri?filename=" & obsidianFolder & encodedTitle & fileType & "&data=[" & encodedTitle & "](" & encodedLink & ")"&defContent&"&mode=new&x-success=" & callbackURL & "&x-error=" & callbackURLError
 	set myScript to "open " & quoted form of myURL
 	do shell script myScript
 	return "hook://link-to-new"
@@ -124,12 +127,7 @@ else
 	set urlKey to "%26urlKey%3Dfile"
 end if
 
-
 set callbackURL to callbackURL & "%3Fsrc%3D" & encodedSrc & "%26titleKey%3Dname" & urlKey
-
--- Use urlencoder.org to define your default note content to be appended to the link in the note
-set defContent to "%0A%0A---%0A%3Cmark%20style%3D%22margin-top%3A%20100%3B%20background-color%3A%20%233B3836%3B%20color%3A%20%23494942%22%3ECreated%3A%20%60%24%3Ddv.span%28dv.current%28%29.file.ctime%29%60%3C%2Fmark%3E"
-
 set myURL to "obsidian://new?name=" & obsidianFolder & encodedTitle & fileType & "&content=[" & encodedTitle & "](" & encodedLink & ")"&defContent&"&x-success=" & callbackURL & "&x-error=" & callbackURLError
 set myScript to "open " & quoted form of myURL
 
