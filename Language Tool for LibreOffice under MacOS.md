@@ -31,7 +31,5 @@ https://hub.libreoffice.org/InstallJava/?LOlocale=en-US
 
 Hence, I downloaded the latest JDK [from Oracle](https://download.oracle.com/java/19/latest/jdk-19_macos-aarch64_bin.dmg). I then restarted installation of the LanguageTool, which worked without issues.
 
-
-
 ---
 Related: [[Computer/MacOS/- -|MacOS]]
