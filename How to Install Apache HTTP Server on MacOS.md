@@ -13,6 +13,7 @@ taxonomy:
         - Computer
         - Apache
         - HomeBrew
+comment_status: open
 ---
 
 # Installation
