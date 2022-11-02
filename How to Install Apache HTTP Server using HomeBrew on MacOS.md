@@ -1,6 +1,6 @@
 ---
 
-title: How to Install Apache HTTP Server on MacOS
+title: How to Install Apache HTTP Server using HomeBrew on MacOS
 menu_order: 1
 post_status: publish
 post_excerpt: How to Install Apache with Virtual hosts on MacOS.
