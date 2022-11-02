@@ -1,3 +1,20 @@
+---
+
+title: How to Install Apache HTTP Server on MacOS
+menu_order: 1
+post_status: publish
+post_excerpt: How to Install Apache with Virtual hosts on MacOS.
+taxonomy:
+    category:
+        - Computer
+        - Apache
+        - HomeBrew
+    post_tag:
+        - Computer
+        - Apache
+        - HomeBrew
+---
+
 # Installation
 
 [How to Install Apache HTTP Server on MacOS – TecAdmin](https://tecadmin.net/install-apache-macos-homebrew/)
