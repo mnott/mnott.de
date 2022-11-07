@@ -29,7 +29,7 @@ Create a directory `c:\\www` and extract the content of the Apache zip file into
  
 ### Download PHP
 
-Go [here](windows.php.net/download#php-8.1) and download PHP. Look for the `VS16 x64 Thread Safe` Zip. 
+Go [here](https://windows.php.net/download#php-8.1) and download PHP. Look for the `VS16 x64 Thread Safe` Zip. 
 
 Create a directory `c:\\www\\php` and extract the content of the PHP zip file into it so that you'll get a file `c:\\www\\php\\php8apache2_4.dll`.
 
@@ -43,7 +43,7 @@ Create a directory `c:\\www\\koolreport` and extract the content of the KoolRepo
 
 ### Download VC Libraries
 
-Go [here](visualstudio.microsoft.com/downloads/#microsoft-visual-c-redistributable-for-visual-studio-2019) and download `Microsoft Visual C++ Redistributable for Visual Studio 2022` for your platform (`x64` if you are running on a native machine; `ARM64` if you are running under Parallels for Mac).
+Go [here](https://visualstudio.microsoft.com/downloads/#microsoft-visual-c-redistributable-for-visual-studio-2019) and download `Microsoft Visual C++ Redistributable for Visual Studio 2022` for your platform (`x64` if you are running on a native machine; `ARM64` if you are running under Parallels for Mac)  this is under "Other Tools, Frameworks, and Redistributables" at the bottom of the page.
 
 ## Installation
 
