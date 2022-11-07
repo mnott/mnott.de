@@ -129,7 +129,7 @@ Edit / create a file `c:\\www\\Apache24\\conf\\extra\\httpd-php.conf`:
 
 #### Configuration of Virtual Hosts via httpd-vhosts.conf
 
-Edit the file `c:\\www\\Apache24\\conf\\extra\\httpd-vhosts.conf` adding this section to it:
+Edit the file `c:\\www\\Apache24\\conf\\extra\\httpd-vhosts.conf` adding this section to it (if you had now content of your own in it, you can replace the file content, as there are some dummy definitions inside):
 
 ```
 <VirtualHost *:80>
@@ -192,11 +192,7 @@ Create a directory `c:\\www\\koolreport\\www` and place a file `phpinfo.php` int
 
 ## Test the Installation
 
-Go to
-
-```
-http://koolreport.test/phpinfo.php
-```
+Go to [here](http://koolreport.test/phpinfo.php).
 
 You should see the PHP Info Page.
 
