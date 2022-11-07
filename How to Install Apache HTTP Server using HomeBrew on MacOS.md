@@ -84,7 +84,7 @@ Include /opt/homebrew/etc/httpd/extra/httpd-vhosts.conf
 as well as
 
 ```
-Include /opt/homebrew/etc/httpd/extra/httpd-vhosts.conf
+LoadModule rewrite_module lib/httpd/modules/mod_rewrite.so
 ```
 
 
@@ -150,7 +150,7 @@ brew services restart httpd
 
 
 
-
-
 ---
+Related: [[Computer/Other/- -|Other]]
+
 <mark style="margin-top: 100; background-color: #3B3836; color: #494942">Created: 1`$=dv.span(dv.current().file.ctime)`</mark>

@@ -166,3 +166,7 @@ To use it, back in the BibDesk settings, as a style enter `apa` and also, for th
 While that precisely works, it has a substantial downside: Biber is significantly slower than BibTeX. So I ended up switching back, and keeping both configuration files as a backup in `~/Library/Application Support/BibDesk/`. Unfortunately, BibDesk only applies for one template, `previewtemplate.tex` to exist, which means, I've to copy around the template should I need to, and also, change back and forth between Biber and BibTex as BibTeX path.
 
 Anyway, it is not particularly nice, but workable.
+
+
+---
+Related: [[Computer/LaTeX/- -|LaTeX]]
