@@ -23,7 +23,7 @@ We're also going to install [KoolReport](https://koolreport.com/) in a virtual h
 
 ### Download Apache
 
-Go [here](https://www.apachelounge.com/download) and download the most recent version of `Apache 2.5.x Win64`.
+Go [here](https://www.apachelounge.com/download) and download the most recent version of `Apache 2.5.x Win64`..
 
 Create a directory `c:\\www` and extract the content of the Apache zip file into it so that you'll get a directory `c:\\www\\Apache24\\conf`.
  
