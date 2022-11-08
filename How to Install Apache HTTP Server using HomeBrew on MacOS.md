@@ -113,21 +113,32 @@ Edit / create a file `/opt/homebrew/etc/httpd/extra/httpd-php.conf`:
 
 Edit `/opt/homebrew/etc/httpd/extra/httpd-vhosts.conf`.
 
-I've e.g. added something like this:
+I've e.g. replaced the file by this:
 
 ```
 <VirtualHost *:80>
-    ServerName koolreport.test
-    DocumentRoot /Users/i052341/Cloud/Development/php/koolreport/vendor/examples
+    ServerName koolreport-examples.test
+    DocumentRoot /opt/local/www/examples
 
-    <Directory /Users/i052341/Cloud/Development/php/koolreport/vendor/examples>
+    <Directory "/opt/local/www/examples">
+        Require all granted
+        AllowOverride All
+    </Directory>
+</VirtualHost>
+
+
+<VirtualHost *:80>
+    ServerName koolreport.test
+    DocumentRoot /opt/local/www/reports
+
+    <Directory "/opt/local/www/reports">
         Require all granted
         AllowOverride All
     </Directory>
 </VirtualHost>
 ```
 
-After having added `koolreport.test` to `/etc/hosts` for `127.0.0.1`.
+After having added `koolreport.test` and `koolreport-examples.test` to `/etc/hosts` for `127.0.0.1`.
 
 I'm adding `koolreport.test` as an virtual host; I'll blog in a separate post about the `koolreport` installation.
 
