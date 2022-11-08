@@ -13,7 +13,7 @@ taxonomy:
 comment_status: open
 ---
 
-I was wondering why the path lookup in KoolReport (see also [this](https://www.mnott.de/how-to-install-apache-http-server-on-windows/)) doesn't work. Turns out, in `vendor/examples/helpers/common.php`, you need to change
+I was wondering why the path lookup in KoolReport (see also [this](https://www.mnott.de/how-to-install-apache-http-server-on-windows/)) doesn't work. Turns out, in `examples/helpers/common.php`, I had to change
 
 ```php
 	return $root_url;
@@ -34,6 +34,14 @@ into this:
     return $root_url;
 ```
 
+
+Plus, in `koolreport/core/src/core/Utility.php`, I had to comment in
+
+```php
+if (isset($_SERVER["DOCUMENT_ROOT"])) return $_SERVER["DOCUMENT_ROOT"];
+```
+
+at the top of `public static function getDocumentRoot()`.
 
 ---
 Related: [[Computer/Other/- -|Other]]
