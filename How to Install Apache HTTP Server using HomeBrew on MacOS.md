@@ -37,7 +37,7 @@ brew services start apache2
 ```
 
 Note that using `sudo`, this fails telling me that Homebrew should not be started as root. So start the apache as normal user.
-
+ 
 The Git-Tower folks say it's better to do this:
 
 ```bash
