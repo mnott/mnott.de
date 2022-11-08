@@ -35,6 +35,20 @@ The downside of that solution is that it does not include the year. A much easie
 find . -mtime -30 -type f -print0 | xargs -0 ls -ltr
 ```
 
+If you want to expand on this, and put it as a function into your `.zshrc`, you can do this:
+
+```bash
+mls() { if [[ $#>0 ]]; then d=$1; shift; find . -mtime $d $* -type f -print0 | xargs -0 ls -ltr; else echo Usage: $0 days \[further find options\]; fi }
+```
+
+This allows you to have a command `mls` which will list, in the current directory and subdirectories, the files modified the last N days sorted by timestamp; and it also allows you to pass in additional options to find. So for example:
+
+```bash
+mls 10 -iname "*php"
+```
+
+This would traverse the directory and give you all `php` files changed during the last 10 days.
+
 
 ---
 Related: [[Computer/Other/- -|Other]]
