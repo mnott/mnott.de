@@ -1,3 +1,18 @@
+---
+
+title: On Python Programming
+menu_order: 1
+post_status: publish
+taxonomy:
+    category:
+        - Python
+        - Computer
+    post_tag:
+        - Python
+        - Computer
+
+---
+
 # On Learning Python Programming
 
 ## Introduction
