@@ -12,7 +12,7 @@ taxonomy:
 comment_status: open
 ---
 
-# How to bore Tunnels...
+# How to bore some Tunnels...
 
 I am way too lazy to remember all sorts of commands. At the same time, when in my company VPN, because of how the VPN client works, I can regularly not access things on my home network. Be it some Windows VM that I've running inside a virtual machine on my server, or be it just to check out what's going on with my raid controllers.
 
