@@ -5,12 +5,10 @@ post_status: publish
 post_excerpt:
 taxonomy:
     category:
-        - category 1
+        - Linux
     post_tag:
-        - tag-1
-custom_fields:
-    field1: value 1
-    field2: value 2
+        - ssh
+        - tunnel
 comment_status: open
 ---
 
