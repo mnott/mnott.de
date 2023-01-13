@@ -28,7 +28,7 @@ The options used in this command are:
 
 -   `-a` for archive mode, which preserves file permissions, ownership, timestamps, etc.
 -   `-v` for verbose output
--   `-z` to compress file data during the transfer
+-   `-z` to compress file data during the transfer. This is optional: If you are copying on your local machine, it can slow down the process significantly if you copy files that anyway can't be compressed.
 -   `--ignore-existing` to skip files that already exist in the destination
 -   `--no-perms`, `--no-owner`, `--no-group` to prevent rsync from trying to change permissions, ownership, or group on the destination files, preserving the timestamps.
 
