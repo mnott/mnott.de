@@ -1,5 +1,5 @@
 ---
-title: 3D Printing - PET-G with PLA Support
+title: 3D Printing - How to Print PET-G with PLA Support
 menu_order: 1
 post_status: publish
 post_excerpt: This is to explain how to use PET-G with PLA support.
@@ -27,7 +27,7 @@ I had the probem that the PET-G print was too brittle; it broke apart easily. I 
 
 I swapped the PLA for Support-W. This didn't change the problem with the brittle PET-G. I suspected it to be related to temperatures, so I printed a [temperature tower](https://www.printables.com/model/335144-bambu-studio-temperature-tower-petg):
 
-![](petg%20-%20with%20pla%20support%20-%2000%20-%20temperature%20tower.png)
+![](petg_-_with_pla_support_-_00_-_temperature_tower.png)
 
 The temperature tower showed me a good temperature would be betwee 265°C and 270°C. I opted for the 265°C, as I would be printing PLA concurrently, and I did want to keep that temperature difference as low as possible.
 
@@ -41,17 +41,17 @@ As I was going to print on the Textured Plate, I changed the temperature setting
 
 I also adapted the temperature range to avoid warnings.
 
-![](petg%20-%20with%20pla%20support%20-%2001%20-%20petg%20-%20filament%20-%20settings.png)
+![](petg_-_with_pla_support_-_01_-_petg_-_filament_-_settings.png)
 
 
 ### Cooling Settings
 
-![](petg%20-%20with%20pla%20support%20-%2002%20-%20petg%20-%20filament%20-%20cooling%20settings.png)
+![](petg_-_with_pla_support_-_02_-_petg_-_filament_-_cooling_settings.png)
 
 
 ### Setting Overrides
 
-![](petg%20-%20with%20pla%20support%20-%2003%20-%20petg%20-%20filament%20-%20setting%20overrides.png)
+![](petg_-_with_pla_support_-_03_-_petg_-_filament_-_setting_overrides.png)
 
 
 ## PLA Settings
@@ -60,18 +60,18 @@ For the support material, I pushed it up in terms of temperature as I had suspec
 
 ### Filament Settings
 
-![](petg%20-%20with%20pla%20support%20-%2004%20-%20pla%20-%20filament%20-%20settings.png.png)
+![](petg_-_with_pla_support_-_04_-_pla_-_filament_-_settings.png.png)
 
 255°C for PLA seem to be a bit extreme, but I wanted to remain close to the PET-G settings of 265°C. See also below for the clogging I got in the PLA tube.
 
 ### Cooling Settings
 
-![](petg%20-%20with%20pla%20support%20-%2005%20-%20pla%20-%20filament%20-%20cooling%20settings.png)
+![](petg_-_with_pla_support_-_05_-_pla_-_filament_-_cooling_settings.png)
 
 
 ### Setting Overrides
 
-![](petg%20-%20with%20pla%20support%20-%2006%20-%20pla%20-%20filament%20-%20setting%20overrides.png)
+![](petg_-_with_pla_support_-_06_-_pla_-_filament_-_setting_overrides.png)
 
 
 ## Object Settings
@@ -80,19 +80,19 @@ For the print object, here are the settings I made:
 
 ### Quality Settings
 
-![](petg%20-%20with%20pla%20support%20-%2007%20-%20quality%20settings.png)
+![](petg_-_with_pla_support_-_07_-_quality_settings.png)
 
 
 ### Strength Settings
 
 I went for 1000 wall loops as my print object would have a thread and I wanted it to be as sturdy as possible:
 
-![](petg%20-%20with%20pla%20support%20-%2008%20-%20strength%20settings.png)
+![](petg_-_with_pla_support_-_08_-_strength_settings.png)
 
 
 ### Speed Settings
 
-![](petg%20-%20with%20pla%20support%20-%2009%20-%20speed%20settings.png)
+![](petg_-_with_pla_support_-_09_-_speed_settings.png)
 
 
 I was printing standard speed.
@@ -101,26 +101,26 @@ I was printing standard speed.
 
 As you can see, I used PLA only as support interface, and used zero interface spacing.
 
-![](petg%20-%20with%20pla%20support%20-%2010%20-%20support%20settings.png)
+![](petg_-_with_pla_support_-_10_-_support_settings.png)
 
 
 ### Other Settings
 
-![](petg%20-%20with%20pla%20support%20-%2011%20-%20other%20settings.png)
+![](petg_-_with_pla_support_-_11_-_other_settings.png)
 
 
 ## Filament Choice
 
 As I have 4 AMS, I've some material to choose from; I print mostly PET-G, so I'm showing below those settings. As you can see above, I used 15 for main material and 12 for support. It's a good thing to have a slightly off color so that while can keep a low purge volume and still avoid color bleed, you can still see the support material clearly on the printed object.
 
-![](petg%20-%20with%20pla%20support%20-%2012%20-%20filament%20choice.png)
+![](petg_-_with_pla_support_-_12_-_filament_choice.png)
 
 
 ## Purge Volumes
 
 Here are the purge volumes I used:
 
-![](petg%20-%20with%20pla%20support%20-%2013%20-%20purge%20volumes.png)
+![](petg_-_with_pla_support_-_13_-_purge_volumes.png)
 
 
 
@@ -130,13 +130,13 @@ Here are the purge volumes I used:
 
 The holder of my Philips Aquatunes shower radio broke. So I constructed a [new one](https://www.thingiverse.com/thing:5887125):
 
-![](petg%20-%20with%20pla%20support%20-%2014%20-%20construction.png)
+![](petg_-_with_pla_support_-_14_-_construction.png)
 
 ## Slicing Example
 
 The base mount (the "U" shape in the above construction) as well as the radio holder I printed at a 45° angle to avoid having layer lines at the base of the weak parts (e.g., the axle or the sides of the "U"):
 
-![](petg%20-%20with%20pla%20support%20-%2015%20-%20slicing%20example.png)
+![](petg_-_with_pla_support_-_15_-_slicing_example.png)
 
 
 ## The Result
@@ -152,9 +152,9 @@ The picture shows a break line which has nothing to do with the design; I had so
 
 One issue was that towards the very end of the print process, the PLA didn't retract. I had had similar issues before due to the somewhat longer PTF-E tubes I needed for my 4 AMS Setup:
 
-![](petg%20-%20with%20pla%20support%20-%2020%20-%20printer%20setup.png)
+![](petg_-_with_pla_support_-_20_-_printer_setup.png)
 
-![](petg%20-%20with%20pla%20support%20-%2021%20-%20printer%20at%20night.png)
+![](petg_-_with_pla_support_-_21_-_printer_at_night.png)
 
 
 Because of the way I've set up the printer, I have slightly longer PTF-E tubes. I had had retraction problems for a while until I managed to get it right.
@@ -163,7 +163,7 @@ So my initial reaction at the retraction problem during this print was to just g
 
 A short while later I got another clog, and I saw that the filament was actually stuck in the tube - between the AMS and the hub. I had to dismount that tube during the print and replace it:
 
-![](petg%20-%20with%20pla%20support%20-%2017%20-%20pla%20retraction%20issue.png)
+![](petg_-_with_pla_support_-_17_-_pla_retraction_issue.png)
 
 
 As you can see, the filament was softened by the higher temperature, probably around the extruder, and ultimately got stuck. So there are three learnings in this context:
@@ -177,12 +177,12 @@ As you can see, the filament was softened by the higher temperature, probably ar
 
 When purging the filament, it tended to get stuck in the poop chute, building up and ultimately throwing an error:
 
-![](petg%20-%20with%20pla%20support%20-%2018%20-%20poop%20chute%20problem.png)
+![](petg_-_with_pla_support_-_18_-_poop_chute_problem.png)
 
 
 I removed it manually (which comes at a risk, see above), but it is of course annoying. On the Unofficial Facebook group, Dale Larsen suggested to use [some teflon tape](https://www.amazon.com/dp/B07GRY47T4?ref=ppx_pop_mob_ap_share):
 
-![](petg%20-%20with%20pla%20support%20-%2019%20-%20poop%20chute%20possible%20solution.png)
+![](petg_-_with_pla_support_-_19_-_poop_chute_possible_solution.png)
 
 
 I haven't tried that, but have the tape on backorder.
