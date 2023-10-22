@@ -31,7 +31,7 @@ You just slap the target directory to the end of it.
 
 
 ---
-Related: [[Computer/MacOS/- -|MacOS]]
+Related: [[🧠 Ideaverse/MacOS/- -|MacOS]]
 
 
 <mark style="margin-top: 100; background-color: #3B3836; color: #494942">Created: 1`$=dv.span(dv.current().file.ctime)`</mark>

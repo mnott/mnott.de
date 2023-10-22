@@ -169,4 +169,4 @@ Anyway, it is not particularly nice, but workable.
 
 
 ---
-Related: [[Computer/LaTeX/- -|LaTeX]]
+Related: [[🧠 Ideaverse/LaTeX/- -|LaTeX]]

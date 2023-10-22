@@ -33,4 +33,4 @@ Hence, I downloaded the latest JDK [from Oracle](https://download.oracle.com/jav
 
 
 ---
-Related: [[Computer/MacOS/- -|MacOS]]
+Related: [[🧠 Ideaverse/MacOS/- -|MacOS]]

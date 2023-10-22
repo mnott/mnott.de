@@ -172,4 +172,4 @@ Install Jabref from [here](https://jabref.org)
 
 
 ---
-Related: [[Computer/LaTeX/- -|LaTeX]]
+Related: [[🧠 Ideaverse/LaTeX/- -|LaTeX]]

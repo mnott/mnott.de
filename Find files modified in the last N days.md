@@ -51,7 +51,7 @@ This would traverse the directory and give you all `php` files changed during th
 
 
 ---
-Related: [[Computer/Other/- -|Other]]
+Related: [[🧠 Ideaverse/Other/- -|Other]]
 
 
 <mark style="margin-top: 100; background-color: #3B3836; color: #494942">Created: 1`$=dv.span(dv.current().file.ctime)`</mark>

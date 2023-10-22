@@ -138,4 +138,4 @@ return "hook://link-to-new"
 
 
 ---
-Related: [[Computer/MacOS/- -|MacOS]]
+Related: [[🧠 Ideaverse/MacOS/- -|MacOS]]
