@@ -27,7 +27,7 @@ Full transparency: I'm not affiliated with Memex, but I am a lifetime supporter 
 
 So why do I refer to Memex when I'm blogging about Obsidian Frontmatter. That's because since I started using Memex, one particular thing started to be even more annoying than it had been for me, before: Obsidian Properties. You see, with the recent update of Obsidian, what was before a `YAML` header in Obsidian now became a property that would actually get in my way when previewing notes:
 
-![Annoying Frontmatter](_images/00_annoying_fronmatter.png)
+![Annoying Frontmatter](00_annoying_fronmatter.png)
 
 As you can see, my Home page in Obsidian is a dashboard, and the frontmatter now messes everything up. So what I've done next ist to create a little bit of CSS that I can add as a `cssclass` yaml header called `frontmatter-hidden`:
 
@@ -76,24 +76,24 @@ With this, everything is good, and the frontmatter is hidden. But sometimes I wa
 
 Here is the effect:
 
-![](_images/01_frontmatter_collapsed.png)
+![](01_frontmatter_collapsed.png)
 
 And if I click on `Properties`, it would show:
 
-![](_images/01_frontmatter_collapsed_uncollapsed.png)
+![](01_frontmatter_collapsed_uncollapsed.png)
 
 So far I was using this as a default, so for all notes, except for when the frontmatter was actually hidden.
 
 
 But now the problem with the arbitrary Memex note would be this:
 
-![](_images/02_memex_frontmatter_collapsed.png)
+![](02_memex_frontmatter_collapsed.png)
 
 As you can see, what I'm missing there really is the URL that Memex puts into the frontmatter. So in other words, particularly for Memex notes, I really want to always see the frontmatter.
 
 So the solution to that is of course to not do this all of the time, but to have the `frontmatter-collapsed` there optionally, and use it where needed, typically via a Templater plugin. For the rare cases where I don't want to see any frontmatter (Dashboards), I use the `frontmatter-hidden` class, and particularly for Memex, where I have no control over the yaml that Memex writes, I will go with the default Obsidian behavior:
 
-![](_images/03_frontmatter_default.png)
+![](03_frontmatter_default.png)
 
 This allows me to see the URL and other annotations (like, Spaces) that Memex puts per default, while at the same time either collapsing, or entirely hiding the frontmatter in other places.
 
@@ -101,5 +101,5 @@ This allows me to see the URL and other annotations (like, Spaces) that Memex pu
 
 Create some file `mn.css` with the above content, and put it into the `.obsidian/snippets` folder of your vault. Then, activate it in your settings:
 
-![](_images/04_snippets.png)
+![](04_snippets.png)
 
