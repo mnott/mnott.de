@@ -101,5 +101,5 @@ This allows me to see the URL and other annotations (like, Spaces) that Memex pu
 
 Create some file `mn.css` with the above content, and put it into the `.obsidian/snippets` folder of your vault. Then, activate it in your settings:
 
-![](04_snippets.png)
+![](_images/04_snippets.png)
 
